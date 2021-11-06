@@ -41,69 +41,6 @@ list_all_versions() {
   list_github_tags
 }
 
-# - v3.19.7 first with Linux
-
-#get_platform() {
-#  local version
-#  version="$1"
-#
-#  local platform arch
-#  arch=$(uname -m)
-#
-#  VERSION_MAJOR="${version%%\.*}"
-#  VERSION_MINOR="${version#*.}"
-#
-#  if [ "$VERSION_MAJOR" -eq 3 ]; then
-#    if [ "$VERSION_MINOR" -lt 19 ]; then
-#      case "$(uname -s)" in
-#      Darwin)
-#        platform="Darwin-x86_64"
-#        ;;
-#      Linux)
-#        platform="Linux-${arch}"
-#        ;;
-#      esac
-#    elif [ "$VERSION_MINOR" -lt 20 ]; then
-#      case "$(uname -s)" in
-#      Darwin)
-#        platform="macos-universal"
-#        ;;
-#      Linux)
-#        platform="Linux-${arch}"
-#        ;;
-#      esac
-#    elif [ "$VERSION_MINOR" -lt 20 ]; then
-#      case "$(uname -s)" in
-#      Darwin)
-#        platform="macos-universal"
-#        ;;
-#      Linux)
-#        platform="linux-${arch}"
-#        ;;
-#      esac
-#
-#    fi
-#  fi
-#
-#  case "$(uname -s)" in
-#  Darwin)
-#    platform="macos-universal"
-#    ;;
-#  Linux)
-#    case "$arch" in
-#    x86_64)
-#      platform="linux-x86_64"
-#      ;;
-#    aarch64)
-#      platform="linux-aarch64"
-#      ;;
-#    esac
-#    ;;
-#  esac
-#
-#  echo -n "$platform"
-#}
-
 extract() {
   local archive_path=$1
   local target_dir=$2
