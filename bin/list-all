@@ -14,4 +14,4 @@ list_of_versions=$(
   | sort_versions                                                   \
 )
 
-echo $list_of_versions
+echo "$list_of_versions"
