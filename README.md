@@ -5,9 +5,9 @@
 
 [cmake](https://cmake.org/documentation) plugin for the [asdf version manager](https://asdf-vm.com).
 
-This plugin will try to install an [official binary release of CMake](https://github.com/Kitware/CMake/releases), but can also build and install from source if necessary or desired.
-
 </div>
+
+This plugin will try to install an [official binary release of CMake](https://github.com/Kitware/CMake/releases), but can also build and install from source if necessary or desired.
 
 # Contents
 
