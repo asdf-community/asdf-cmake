@@ -19,6 +19,7 @@ This plugin will try to install an [official binary release of CMake](https://gi
 # Dependencies
 
 - `bash`, `curl`, `tar`: generic POSIX utilities.
+- *optional* Qt installation if compiling from source and wanting `cmake-gui`
 
 # Install
 
