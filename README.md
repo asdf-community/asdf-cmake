@@ -67,6 +67,10 @@ A few environment variables can affect this plugin:
 - `ASDF_CMAKE_FORCE_SOURCE_INSTALL`: Set to `1` to force a source-based installation instead of using a pre-compiled binary, even if a binary release is available.
 - `QTBINDIR`: Set to your Qt installation to build `cmake-gui`, if CMake is being built from source.
 
+# Acknowledgements
+
+The plugin is based on work in [srivathsanmurali/asdf-cmake](https://github.com/srivathsanmurali/asdf-cmake). Many thanks to the original authors of that project.
+
 # Contributing
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
