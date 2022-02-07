@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-cmake [![Build](https://github.com/amrox/asdf-cmake/actions/workflows/build.yml/badge.svg)](https://github.com/amrox/asdf-cmake/actions/workflows/build.yml) [![Lint](https://github.com/amrox/asdf-cmake/actions/workflows/lint.yml/badge.svg)](https://github.com/amrox/asdf-cmake/actions/workflows/lint.yml)
+# asdf-cmake [![Build](https://github.com/asdf-community/asdf-cmake/actions/workflows/build.yml/badge.svg)](https://github.com/asdf-community/asdf-cmake/actions/workflows/build.yml) [![Lint](https://github.com/asdf-community/asdf-cmake/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-community/asdf-cmake/actions/workflows/lint.yml)
 
 
 [cmake](https://cmake.org/documentation) plugin for the [asdf version manager](https://asdf-vm.com).
@@ -26,7 +26,7 @@ This plugin will try to install an [official binary release of CMake](https://gi
 Plugin:
 
 ```shell
-asdf plugin add cmake https://github.com/amrox/asdf-cmake.git
+asdf plugin add cmake https://github.com/asdf-community/asdf-cmake.git
 ```
 
 cmake:
@@ -75,7 +75,7 @@ The plugin is based on work in [srivathsanmurali/asdf-cmake](https://github.com/
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/amrox/asdf-cmake/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/asdf-community/asdf-cmake/graphs/contributors)!
 
 # License
 
