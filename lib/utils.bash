@@ -198,7 +198,7 @@ install_version() {
 
       log "Installing download binary in ${ASDF_DOWNLOAD_PATH}/bin"
 
-      cp -r "${ASDF_DOWNLOAD_PATH}/bin"/* "$install_path"
+      cp -R "${ASDF_DOWNLOAD_PATH}/bin"/* "$install_path"
 
       (
         cd "$install_path"
